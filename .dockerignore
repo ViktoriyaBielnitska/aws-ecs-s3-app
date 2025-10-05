@@ -1,0 +1,47 @@
+# Python кеші та байт-код
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Віртуальні середовища
+.venv/
+env/
+venv/
+
+# Конфігураційні файли та секрети
+.env
+*.env
+.env.*
+
+# Лог-файли
+*.log
+
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Тести / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Docker
+*.pid
+*.seed
+*.bak
+*.swp
+docker-compose.override.yml
+
+# Білд-артефакти
+dist/
+build/
+*.egg-info/
